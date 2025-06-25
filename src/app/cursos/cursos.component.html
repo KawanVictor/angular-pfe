@@ -1,7 +1,11 @@
-
-<ul>
-  <li *ngFor="let curso of cursos">
-    {{ curso.nome }}
-    <button (click)="verRamificacoes(curso.id)">Ver Ramificações</button>
+<ul role="list" class="cursos-lista">
+  <li role="listitem" *ngFor="let curso of cursos">
+    <div>
+      <span class="curso-nome">{{ curso.nome }}</span>
+      <p class="curso-descricao">{{ curso.descricao }}</p>
+    </div>
+    <button (click)="verRamificacoes(curso.id)" aria-label="Ver ramificações de {{curso.nome}}">
+      Ver Ramificações
+    </button>
   </li>
 </ul>

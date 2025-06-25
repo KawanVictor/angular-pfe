@@ -7,9 +7,11 @@ import { DadosService } from '../services/dados.service';
   templateUrl: './cursos.component.html',
 })
 export class CursosComponent {
-  cursos = this.dadosService.getCursos();
+  cursos: any[] = [];
 
-  constructor(private router: Router, private dadosService: DadosService) {}
+  constructor(private router: Router, private dadosService: DadosService) {
+    this.cursos = this.dadosService.getCursos();
+  }
 
   verRamificacoes(id: number) {
     this.router.navigate(['/ramificacoes', id]);

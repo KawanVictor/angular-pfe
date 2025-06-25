@@ -7,18 +7,20 @@ Esse projeto atende ao requisito da disciplina Programação Front-End, do curso
 
 
 ## Funcionalidades da Aplicação
-✅ Lista de Cursos da área de TI
-✅ Exibição das ramificações/especializações de cada curso
-✅ Navegação entre as páginas com Angular Router
-✅ Uso de serviço Angular (Service) para fornecer os dados
-✅ Estrutura de código limpa e modular
+✅ Lista de Cursos da área de TI com explicação de cada curso
+✅ Exibição das ramificações/especializações de cada curso, com diversas opções para cada área
+✅ Navegação entre páginas usando Angular Router
+✅ Uso de serviço Angular (Service) para fornecimento centralizado dos dados
+✅ Código limpo, modular e acessível
+✅ Design moderno, responsivo e acessível (foco visível, contraste, navegação por teclado, suporte a modo escuro)
+✅ Personalização fácil do visual via CSS
 
 
 ## Tecnologias utilizadas
 Angular 16
 TypeScript
 HTML5
-CSS3
+CSS3 (com foco em responsividade e acessibilidade)
 Node.js
 
 ## Requisitos para Executar o Projeto
