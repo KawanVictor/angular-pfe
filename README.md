@@ -43,7 +43,7 @@ https://git-scm.com/
 
 ```bash
 npm install --legacy-peer-deps (O parâmetro --legacy-peer-deps evita conflitos entre versões de pacotes.)
-ng serve
+ng serve ou npm start
 ```
 
 Depois, acesse: http://localhost:4200/
